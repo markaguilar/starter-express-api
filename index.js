@@ -9,4 +9,5 @@ mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         // listen for request
         app.listen(process.env.PORT || 3000)
+})
 
